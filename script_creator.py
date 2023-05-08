@@ -5,7 +5,7 @@ import os
 import openai
 import argparse
 
-ai_key = "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"
+ai_key = ""
 Openai_prompt = input("How may I help you today?")
 openai.api_key = ai_key
 response = openai.Completion.create(
