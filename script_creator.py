@@ -10,7 +10,7 @@ parser = argparse.ArgumentParser(description='OpenAI prompt')
 parser.add_argument('prompt', metavar='P', type=str, help='The prompt for the OpenAI API')
 args = parser.parse_args()
 
-ai_key = "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"
+ai_key = ""
 openai.api_key = ai_key
 response = openai.Completion.create(
     model="text-davinci-003",
