@@ -5,12 +5,12 @@ import os
 import openai
 import argparse
 
-'''
+
 parser = argparse.ArgumentParser(description='OpenAI prompt')
 parser.add_argument('prompt', metavar='P', type=str, help='The prompt for the OpenAI API')
 args = parser.parse_args()
-'''
-ai_key = "YOUR_OPENAI_API_KEY"
+
+ai_key = "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"
 openai.api_key = ai_key
 response = openai.Completion.create(
     model="text-davinci-003",
