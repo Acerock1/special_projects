@@ -3,4 +3,6 @@
 def main(name) :
     print (f"hello {name}")
 
-main("afo")
+name = input("What is your name ? \n")
+
+main(name)
